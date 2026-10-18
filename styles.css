@@ -224,6 +224,7 @@ FEATURES
 
 .books {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .book {
@@ -247,7 +248,7 @@ FEATURES
 }
 
 .book:hover .book__img {
-  transform: scale(1.03);
+  transform: scale(1.1);
 }
 
 .book__title {
