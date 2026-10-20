@@ -437,16 +437,17 @@ footer {
   .nav__links {
     display: none;
   }
-}
 
-.btn__menu {
-  display: block;
-}
+  .btn__menu {
+    display: block;
+  }
+  
+  .highlight {
+    width: 100%;
+  }
+  
+  .highlight:not(:last-child) {
+    margin-bottom: 24px;
+  }
 
-.highlight {
-  width: 100%;
-}
-
-.highlight:not(:last-child) {
-  margin-bottom: 24px;
 }
